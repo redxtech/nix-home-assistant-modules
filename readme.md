@@ -30,4 +30,8 @@ then consume the packages in your NixOS configuration:
 
 ## rationale
 
-a lot of the most popular Home Assistant components and lovelace modules are not available in nixpkgs. this repo aims to provide a collection of custom components and lovelace modules that can be used with nix. addionally, their python dependencies have been included here as well, if they're missing from nixpkgs.
+a lot of the most popular home assistant components and lovelace modules are not available in nixpkgs. this repo aims to provide a collection that can be used with nix. addionally, their python dependencies have been included here as well, if they're missing from nixpkgs.
+
+## work in progress
+
+this repo is still very much a work in progress. i'm still working on adding more components and lovelace modules as i can. if any you want to use are missing, open an issue and i'll see if i can package it.
