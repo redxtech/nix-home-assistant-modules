@@ -21,10 +21,10 @@ then consume the packages in your NixOS configuration:
     services.home-assistant = let
         nix-home-assistant-modules = inputs.nix-home-assistant-modules.legacyPackages.${system};
     in {
-      customComponents = with nix-home-assistant-modules.home-assistant-custom-components; [];
+        customComponents = with nix-home-assistant-modules.home-assistant-custom-components; [];
 
-      customLovelaceModules = with nix-home-assistant-modules.home-assistant-custom-lovelace-modules; [];
-  };
+        customLovelaceModules = with nix-home-assistant-modules.home-assistant-custom-lovelace-modules; [];
+    };
 }
 ```
 
